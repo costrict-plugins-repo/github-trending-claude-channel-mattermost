@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "types": ["bun-types"]
+  },
+  "include": ["server.ts", "shared.ts", "router.ts", "approval-bridge.ts", "webhook-format.ts", "test/**/*.ts"]
+}
